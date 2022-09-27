@@ -1,6 +1,4 @@
-from multiprocessing.sharedctypes import Value
 from sys import argv
-from unittest import skip
 whitespace = "   "
 
 class ProgramError(Exception):
