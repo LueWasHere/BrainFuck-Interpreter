@@ -27,7 +27,7 @@ to_save = ""
 
 for i in range(0, len(argv)):
     if argv[i] in prog_ops:
-        if prog_ops[prog_ops.index(argv[i])] == "-so" or prog_ops[prog_ops.index(argv[i])] == "-saveoutput":
+        if prog_ops[prog_ops.index(argv[i])] == "-so" or prog_ops[prog_ops.index(argv[i])] == "--saveoutput":
             savefile = "log.log"
 char = 1
 ln = 1
