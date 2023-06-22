@@ -1,4 +1,4 @@
 # BrainFuck-Interpreter
-Another BrainFuck interpreter
+Yet another BrainFuck interpreter
 
 If you want a log file to be generated use "-so" or "--saveouput"
