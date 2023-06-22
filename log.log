@@ -1,0 +1,1810 @@
+##########################################################################################################
+
+Hey, if you're wondering what was changed about the log file spacing compare lines: 98 and 1190 in this
+(log.log) and the old log file (log_OLD.log). It's a small but satisfying difference
+
+##########################################################################################################
+
+Increment pointer:
+[0, 0]
+    ^ -> (Line 1 Char 2)
+Increment value at pointer:
+[0, 1]
+    ^ -> (Line 1 Char 3)
+    | 0 -> 1
+Increment value at pointer:
+[0, 2]
+    ^ -> (Line 1 Char 4)
+    | 1 -> 2
+Increment value at pointer:
+[0, 3]
+    ^ -> (Line 1 Char 5)
+    | 2 -> 3
+Increment value at pointer:
+[0, 4]
+    ^ -> (Line 1 Char 6)
+    | 3 -> 4
+Increment value at pointer:
+[0, 5]
+    ^ -> (Line 1 Char 7)
+    | 4 -> 5
+Increment value at pointer:
+[0, 6]
+    ^ -> (Line 1 Char 8)
+    | 5 -> 6
+Increment value at pointer:
+[0, 7]
+    ^ -> (Line 1 Char 9)
+    | 6 -> 7
+Increment value at pointer:
+[0, 8]
+    ^ -> (Line 1 Char 10)
+    | 7 -> 8
+Begin Loop at pointer:
++++++[<+++
+     ^ -> (Line 1 Char 11)
+Decrement pointer:
+[0, 8]
+ ^
+Increment value at pointer:
+[1, 8]
+ ^ -> (Line 1 Char 13)
+ | 0 -> 1
+Increment value at pointer:
+[2, 8]
+ ^ -> (Line 1 Char 14)
+ | 1 -> 2
+Increment value at pointer:
+[3, 8]
+ ^ -> (Line 1 Char 15)
+ | 2 -> 3
+Increment value at pointer:
+[4, 8]
+ ^ -> (Line 1 Char 16)
+ | 3 -> 4
+Increment value at pointer:
+[5, 8]
+ ^ -> (Line 1 Char 17)
+ | 4 -> 5
+Increment value at pointer:
+[6, 8]
+ ^ -> (Line 1 Char 18)
+ | 5 -> 6
+Increment value at pointer:
+[7, 8]
+ ^ -> (Line 1 Char 19)
+ | 6 -> 7
+Increment value at pointer:
+[8, 8]
+ ^ -> (Line 1 Char 20)
+ | 7 -> 8
+Increment value at pointer:
+[9, 8]
+ ^ -> (Line 1 Char 21)
+ | 8 -> 9
+Increment pointer:
+[9, 8]
+    ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[9, 7]
+    ^ -> (Line 1 Char 23)
+    | 8 -> 7
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[9, 7]
+ ^
+Increment value at pointer:
+[10, 7]
+ ^ -> (Line 1 Char 13)
+ | 9 -> 10
+Increment value at pointer:
+[11, 7]
+ ^ -> (Line 1 Char 14)
+ | 10 -> 11
+Increment value at pointer:
+[12, 7]
+ ^ -> (Line 1 Char 15)
+ | 11 -> 12
+Increment value at pointer:
+[13, 7]
+ ^ -> (Line 1 Char 16)
+ | 12 -> 13
+Increment value at pointer:
+[14, 7]
+ ^ -> (Line 1 Char 17)
+ | 13 -> 14
+Increment value at pointer:
+[15, 7]
+ ^ -> (Line 1 Char 18)
+ | 14 -> 15
+Increment value at pointer:
+[16, 7]
+ ^ -> (Line 1 Char 19)
+ | 15 -> 16
+Increment value at pointer:
+[17, 7]
+ ^ -> (Line 1 Char 20)
+ | 16 -> 17
+Increment value at pointer:
+[18, 7]
+ ^ -> (Line 1 Char 21)
+ | 17 -> 18
+Increment pointer:
+[18, 7]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[18, 6]
+     ^ -> (Line 1 Char 23)
+     | 7 -> 6
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[18, 6]
+ ^
+Increment value at pointer:
+[19, 6]
+ ^ -> (Line 1 Char 13)
+ | 18 -> 19
+Increment value at pointer:
+[20, 6]
+ ^ -> (Line 1 Char 14)
+ | 19 -> 20
+Increment value at pointer:
+[21, 6]
+ ^ -> (Line 1 Char 15)
+ | 20 -> 21
+Increment value at pointer:
+[22, 6]
+ ^ -> (Line 1 Char 16)
+ | 21 -> 22
+Increment value at pointer:
+[23, 6]
+ ^ -> (Line 1 Char 17)
+ | 22 -> 23
+Increment value at pointer:
+[24, 6]
+ ^ -> (Line 1 Char 18)
+ | 23 -> 24
+Increment value at pointer:
+[25, 6]
+ ^ -> (Line 1 Char 19)
+ | 24 -> 25
+Increment value at pointer:
+[26, 6]
+ ^ -> (Line 1 Char 20)
+ | 25 -> 26
+Increment value at pointer:
+[27, 6]
+ ^ -> (Line 1 Char 21)
+ | 26 -> 27
+Increment pointer:
+[27, 6]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[27, 5]
+     ^ -> (Line 1 Char 23)
+     | 6 -> 5
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[27, 5]
+ ^
+Increment value at pointer:
+[28, 5]
+ ^ -> (Line 1 Char 13)
+ | 27 -> 28
+Increment value at pointer:
+[29, 5]
+ ^ -> (Line 1 Char 14)
+ | 28 -> 29
+Increment value at pointer:
+[30, 5]
+ ^ -> (Line 1 Char 15)
+ | 29 -> 30
+Increment value at pointer:
+[31, 5]
+ ^ -> (Line 1 Char 16)
+ | 30 -> 31
+Increment value at pointer:
+[32, 5]
+ ^ -> (Line 1 Char 17)
+ | 31 -> 32
+Increment value at pointer:
+[33, 5]
+ ^ -> (Line 1 Char 18)
+ | 32 -> 33
+Increment value at pointer:
+[34, 5]
+ ^ -> (Line 1 Char 19)
+ | 33 -> 34
+Increment value at pointer:
+[35, 5]
+ ^ -> (Line 1 Char 20)
+ | 34 -> 35
+Increment value at pointer:
+[36, 5]
+ ^ -> (Line 1 Char 21)
+ | 35 -> 36
+Increment pointer:
+[36, 5]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[36, 4]
+     ^ -> (Line 1 Char 23)
+     | 5 -> 4
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[36, 4]
+ ^
+Increment value at pointer:
+[37, 4]
+ ^ -> (Line 1 Char 13)
+ | 36 -> 37
+Increment value at pointer:
+[38, 4]
+ ^ -> (Line 1 Char 14)
+ | 37 -> 38
+Increment value at pointer:
+[39, 4]
+ ^ -> (Line 1 Char 15)
+ | 38 -> 39
+Increment value at pointer:
+[40, 4]
+ ^ -> (Line 1 Char 16)
+ | 39 -> 40
+Increment value at pointer:
+[41, 4]
+ ^ -> (Line 1 Char 17)
+ | 40 -> 41
+Increment value at pointer:
+[42, 4]
+ ^ -> (Line 1 Char 18)
+ | 41 -> 42
+Increment value at pointer:
+[43, 4]
+ ^ -> (Line 1 Char 19)
+ | 42 -> 43
+Increment value at pointer:
+[44, 4]
+ ^ -> (Line 1 Char 20)
+ | 43 -> 44
+Increment value at pointer:
+[45, 4]
+ ^ -> (Line 1 Char 21)
+ | 44 -> 45
+Increment pointer:
+[45, 4]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[45, 3]
+     ^ -> (Line 1 Char 23)
+     | 4 -> 3
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[45, 3]
+ ^
+Increment value at pointer:
+[46, 3]
+ ^ -> (Line 1 Char 13)
+ | 45 -> 46
+Increment value at pointer:
+[47, 3]
+ ^ -> (Line 1 Char 14)
+ | 46 -> 47
+Increment value at pointer:
+[48, 3]
+ ^ -> (Line 1 Char 15)
+ | 47 -> 48
+Increment value at pointer:
+[49, 3]
+ ^ -> (Line 1 Char 16)
+ | 48 -> 49
+Increment value at pointer:
+[50, 3]
+ ^ -> (Line 1 Char 17)
+ | 49 -> 50
+Increment value at pointer:
+[51, 3]
+ ^ -> (Line 1 Char 18)
+ | 50 -> 51
+Increment value at pointer:
+[52, 3]
+ ^ -> (Line 1 Char 19)
+ | 51 -> 52
+Increment value at pointer:
+[53, 3]
+ ^ -> (Line 1 Char 20)
+ | 52 -> 53
+Increment value at pointer:
+[54, 3]
+ ^ -> (Line 1 Char 21)
+ | 53 -> 54
+Increment pointer:
+[54, 3]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[54, 2]
+     ^ -> (Line 1 Char 23)
+     | 3 -> 2
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[54, 2]
+ ^
+Increment value at pointer:
+[55, 2]
+ ^ -> (Line 1 Char 13)
+ | 54 -> 55
+Increment value at pointer:
+[56, 2]
+ ^ -> (Line 1 Char 14)
+ | 55 -> 56
+Increment value at pointer:
+[57, 2]
+ ^ -> (Line 1 Char 15)
+ | 56 -> 57
+Increment value at pointer:
+[58, 2]
+ ^ -> (Line 1 Char 16)
+ | 57 -> 58
+Increment value at pointer:
+[59, 2]
+ ^ -> (Line 1 Char 17)
+ | 58 -> 59
+Increment value at pointer:
+[60, 2]
+ ^ -> (Line 1 Char 18)
+ | 59 -> 60
+Increment value at pointer:
+[61, 2]
+ ^ -> (Line 1 Char 19)
+ | 60 -> 61
+Increment value at pointer:
+[62, 2]
+ ^ -> (Line 1 Char 20)
+ | 61 -> 62
+Increment value at pointer:
+[63, 2]
+ ^ -> (Line 1 Char 21)
+ | 62 -> 63
+Increment pointer:
+[63, 2]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[63, 1]
+     ^ -> (Line 1 Char 23)
+     | 2 -> 1
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Re-Enter Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 11)
+                        ^
+Decrement pointer:
+[63, 1]
+ ^
+Increment value at pointer:
+[64, 1]
+ ^ -> (Line 1 Char 13)
+ | 63 -> 64
+Increment value at pointer:
+[65, 1]
+ ^ -> (Line 1 Char 14)
+ | 64 -> 65
+Increment value at pointer:
+[66, 1]
+ ^ -> (Line 1 Char 15)
+ | 65 -> 66
+Increment value at pointer:
+[67, 1]
+ ^ -> (Line 1 Char 16)
+ | 66 -> 67
+Increment value at pointer:
+[68, 1]
+ ^ -> (Line 1 Char 17)
+ | 67 -> 68
+Increment value at pointer:
+[69, 1]
+ ^ -> (Line 1 Char 18)
+ | 68 -> 69
+Increment value at pointer:
+[70, 1]
+ ^ -> (Line 1 Char 19)
+ | 69 -> 70
+Increment value at pointer:
+[71, 1]
+ ^ -> (Line 1 Char 20)
+ | 70 -> 71
+Increment value at pointer:
+[72, 1]
+ ^ -> (Line 1 Char 21)
+ | 71 -> 72
+Increment pointer:
+[72, 1]
+     ^ -> (Line 1 Char 22)
+Decrement value at pointer:
+[72, 0]
+     ^ -> (Line 1 Char 23)
+     | 1 -> 0
+Check Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+End Loop at pointer:
++++>-]<.>+
+     ^ -> (Line 1 Char 24)
+Decrement pointer:
+[72, 0]
+ ^
+Printed value at pointer:
+[72, 0]
+ ^ -> (Line 1 Char 26)
+ | 72 -> CONSOLE
+Increment pointer:
+[72, 0]
+     ^ -> (Line 1 Char 27)
+Increment value at pointer:
+[72, 1]
+     ^ -> (Line 1 Char 28)
+     | 0 -> 1
+Increment value at pointer:
+[72, 2]
+     ^ -> (Line 1 Char 29)
+     | 1 -> 2
+Increment value at pointer:
+[72, 3]
+     ^ -> (Line 1 Char 30)
+     | 2 -> 3
+Increment value at pointer:
+[72, 4]
+     ^ -> (Line 1 Char 31)
+     | 3 -> 4
+Begin Loop at pointer:
+>++++[<+++
+     ^ -> (Line 1 Char 32)
+Decrement pointer:
+[72, 4]
+ ^
+Increment value at pointer:
+[73, 4]
+ ^ -> (Line 1 Char 34)
+ | 72 -> 73
+Increment value at pointer:
+[74, 4]
+ ^ -> (Line 1 Char 35)
+ | 73 -> 74
+Increment value at pointer:
+[75, 4]
+ ^ -> (Line 1 Char 36)
+ | 74 -> 75
+Increment value at pointer:
+[76, 4]
+ ^ -> (Line 1 Char 37)
+ | 75 -> 76
+Increment value at pointer:
+[77, 4]
+ ^ -> (Line 1 Char 38)
+ | 76 -> 77
+Increment value at pointer:
+[78, 4]
+ ^ -> (Line 1 Char 39)
+ | 77 -> 78
+Increment value at pointer:
+[79, 4]
+ ^ -> (Line 1 Char 40)
+ | 78 -> 79
+Increment pointer:
+[79, 4]
+     ^ -> (Line 1 Char 41)
+Decrement value at pointer:
+[79, 3]
+     ^ -> (Line 1 Char 42)
+     | 4 -> 3
+Check Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+Re-Enter Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 32)
+                        ^
+Decrement pointer:
+[79, 3]
+ ^
+Increment value at pointer:
+[80, 3]
+ ^ -> (Line 1 Char 34)
+ | 79 -> 80
+Increment value at pointer:
+[81, 3]
+ ^ -> (Line 1 Char 35)
+ | 80 -> 81
+Increment value at pointer:
+[82, 3]
+ ^ -> (Line 1 Char 36)
+ | 81 -> 82
+Increment value at pointer:
+[83, 3]
+ ^ -> (Line 1 Char 37)
+ | 82 -> 83
+Increment value at pointer:
+[84, 3]
+ ^ -> (Line 1 Char 38)
+ | 83 -> 84
+Increment value at pointer:
+[85, 3]
+ ^ -> (Line 1 Char 39)
+ | 84 -> 85
+Increment value at pointer:
+[86, 3]
+ ^ -> (Line 1 Char 40)
+ | 85 -> 86
+Increment pointer:
+[86, 3]
+     ^ -> (Line 1 Char 41)
+Decrement value at pointer:
+[86, 2]
+     ^ -> (Line 1 Char 42)
+     | 3 -> 2
+Check Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+Re-Enter Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 32)
+                        ^
+Decrement pointer:
+[86, 2]
+ ^
+Increment value at pointer:
+[87, 2]
+ ^ -> (Line 1 Char 34)
+ | 86 -> 87
+Increment value at pointer:
+[88, 2]
+ ^ -> (Line 1 Char 35)
+ | 87 -> 88
+Increment value at pointer:
+[89, 2]
+ ^ -> (Line 1 Char 36)
+ | 88 -> 89
+Increment value at pointer:
+[90, 2]
+ ^ -> (Line 1 Char 37)
+ | 89 -> 90
+Increment value at pointer:
+[91, 2]
+ ^ -> (Line 1 Char 38)
+ | 90 -> 91
+Increment value at pointer:
+[92, 2]
+ ^ -> (Line 1 Char 39)
+ | 91 -> 92
+Increment value at pointer:
+[93, 2]
+ ^ -> (Line 1 Char 40)
+ | 92 -> 93
+Increment pointer:
+[93, 2]
+     ^ -> (Line 1 Char 41)
+Decrement value at pointer:
+[93, 1]
+     ^ -> (Line 1 Char 42)
+     | 2 -> 1
+Check Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+Re-Enter Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 32)
+                        ^
+Decrement pointer:
+[93, 1]
+ ^
+Increment value at pointer:
+[94, 1]
+ ^ -> (Line 1 Char 34)
+ | 93 -> 94
+Increment value at pointer:
+[95, 1]
+ ^ -> (Line 1 Char 35)
+ | 94 -> 95
+Increment value at pointer:
+[96, 1]
+ ^ -> (Line 1 Char 36)
+ | 95 -> 96
+Increment value at pointer:
+[97, 1]
+ ^ -> (Line 1 Char 37)
+ | 96 -> 97
+Increment value at pointer:
+[98, 1]
+ ^ -> (Line 1 Char 38)
+ | 97 -> 98
+Increment value at pointer:
+[99, 1]
+ ^ -> (Line 1 Char 39)
+ | 98 -> 99
+Increment value at pointer:
+[100, 1]
+ ^ -> (Line 1 Char 40)
+ | 99 -> 100
+Increment pointer:
+[100, 1]
+      ^ -> (Line 1 Char 41)
+Decrement value at pointer:
+[100, 0]
+      ^ -> (Line 1 Char 42)
+      | 1 -> 0
+Check Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+End Loop at pointer:
++++>-]<+.+
+     ^ -> (Line 1 Char 43)
+Decrement pointer:
+[100, 0]
+ ^
+Increment value at pointer:
+[101, 0]
+ ^ -> (Line 1 Char 45)
+ | 100 -> 101
+Printed value at pointer:
+[101, 0]
+ ^ -> (Line 1 Char 46)
+ | 101 -> CONSOLE
+Increment value at pointer:
+[102, 0]
+ ^ -> (Line 1 Char 47)
+ | 101 -> 102
+Increment value at pointer:
+[103, 0]
+ ^ -> (Line 1 Char 48)
+ | 102 -> 103
+Increment value at pointer:
+[104, 0]
+ ^ -> (Line 1 Char 49)
+ | 103 -> 104
+Increment value at pointer:
+[105, 0]
+ ^ -> (Line 1 Char 50)
+ | 104 -> 105
+Increment value at pointer:
+[106, 0]
+ ^ -> (Line 1 Char 51)
+ | 105 -> 106
+Increment value at pointer:
+[107, 0]
+ ^ -> (Line 1 Char 52)
+ | 106 -> 107
+Increment value at pointer:
+[108, 0]
+ ^ -> (Line 1 Char 53)
+ | 107 -> 108
+Printed value at pointer:
+[108, 0]
+ ^ -> (Line 1 Char 54)
+ | 108 -> CONSOLE
+Printed value at pointer:
+[108, 0]
+ ^ -> (Line 1 Char 55)
+ | 108 -> CONSOLE
+Increment value at pointer:
+[109, 0]
+ ^ -> (Line 1 Char 56)
+ | 108 -> 109
+Increment value at pointer:
+[110, 0]
+ ^ -> (Line 1 Char 57)
+ | 109 -> 110
+Increment value at pointer:
+[111, 0]
+ ^ -> (Line 1 Char 58)
+ | 110 -> 111
+Printed value at pointer:
+[111, 0]
+ ^ -> (Line 1 Char 59)
+ | 111 -> CONSOLE
+Increment pointer:
+[111, 0]
+      ^ -> (Line 1 Char 60)
+Increment pointer:
+[111, 0, 0]
+         ^ -> (Line 1 Char 61)
+Increment value at pointer:
+[111, 0, 1]
+         ^ -> (Line 1 Char 62)
+         | 0 -> 1
+Increment value at pointer:
+[111, 0, 2]
+         ^ -> (Line 1 Char 63)
+         | 1 -> 2
+Increment value at pointer:
+[111, 0, 3]
+         ^ -> (Line 1 Char 64)
+         | 2 -> 3
+Increment value at pointer:
+[111, 0, 4]
+         ^ -> (Line 1 Char 65)
+         | 3 -> 4
+Increment value at pointer:
+[111, 0, 5]
+         ^ -> (Line 1 Char 66)
+         | 4 -> 5
+Increment value at pointer:
+[111, 0, 6]
+         ^ -> (Line 1 Char 67)
+         | 5 -> 6
+Begin Loop at pointer:
++++++[<+++
+     ^ -> (Line 1 Char 68)
+Decrement pointer:
+[111, 0, 6]
+      ^
+Increment value at pointer:
+[111, 1, 6]
+      ^ -> (Line 1 Char 70)
+      | 0 -> 1
+Increment value at pointer:
+[111, 2, 6]
+      ^ -> (Line 1 Char 71)
+      | 1 -> 2
+Increment value at pointer:
+[111, 3, 6]
+      ^ -> (Line 1 Char 72)
+      | 2 -> 3
+Increment value at pointer:
+[111, 4, 6]
+      ^ -> (Line 1 Char 73)
+      | 3 -> 4
+Increment value at pointer:
+[111, 5, 6]
+      ^ -> (Line 1 Char 74)
+      | 4 -> 5
+Increment value at pointer:
+[111, 6, 6]
+      ^ -> (Line 1 Char 75)
+      | 5 -> 6
+Increment value at pointer:
+[111, 7, 6]
+      ^ -> (Line 1 Char 76)
+      | 6 -> 7
+Increment pointer:
+[111, 7, 6]
+         ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 7, 5]
+         ^ -> (Line 1 Char 78)
+         | 6 -> 5
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Re-Enter Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 68)
+                        ^
+Decrement pointer:
+[111, 7, 5]
+      ^
+Increment value at pointer:
+[111, 8, 5]
+      ^ -> (Line 1 Char 70)
+      | 7 -> 8
+Increment value at pointer:
+[111, 9, 5]
+      ^ -> (Line 1 Char 71)
+      | 8 -> 9
+Increment value at pointer:
+[111, 10, 5]
+      ^ -> (Line 1 Char 72)
+      | 9 -> 10
+Increment value at pointer:
+[111, 11, 5]
+      ^ -> (Line 1 Char 73)
+      | 10 -> 11
+Increment value at pointer:
+[111, 12, 5]
+      ^ -> (Line 1 Char 74)
+      | 11 -> 12
+Increment value at pointer:
+[111, 13, 5]
+      ^ -> (Line 1 Char 75)
+      | 12 -> 13
+Increment value at pointer:
+[111, 14, 5]
+      ^ -> (Line 1 Char 76)
+      | 13 -> 14
+Increment pointer:
+[111, 14, 5]
+          ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 14, 4]
+          ^ -> (Line 1 Char 78)
+          | 5 -> 4
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Re-Enter Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 68)
+                        ^
+Decrement pointer:
+[111, 14, 4]
+      ^
+Increment value at pointer:
+[111, 15, 4]
+      ^ -> (Line 1 Char 70)
+      | 14 -> 15
+Increment value at pointer:
+[111, 16, 4]
+      ^ -> (Line 1 Char 71)
+      | 15 -> 16
+Increment value at pointer:
+[111, 17, 4]
+      ^ -> (Line 1 Char 72)
+      | 16 -> 17
+Increment value at pointer:
+[111, 18, 4]
+      ^ -> (Line 1 Char 73)
+      | 17 -> 18
+Increment value at pointer:
+[111, 19, 4]
+      ^ -> (Line 1 Char 74)
+      | 18 -> 19
+Increment value at pointer:
+[111, 20, 4]
+      ^ -> (Line 1 Char 75)
+      | 19 -> 20
+Increment value at pointer:
+[111, 21, 4]
+      ^ -> (Line 1 Char 76)
+      | 20 -> 21
+Increment pointer:
+[111, 21, 4]
+          ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 21, 3]
+          ^ -> (Line 1 Char 78)
+          | 4 -> 3
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Re-Enter Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 68)
+                        ^
+Decrement pointer:
+[111, 21, 3]
+      ^
+Increment value at pointer:
+[111, 22, 3]
+      ^ -> (Line 1 Char 70)
+      | 21 -> 22
+Increment value at pointer:
+[111, 23, 3]
+      ^ -> (Line 1 Char 71)
+      | 22 -> 23
+Increment value at pointer:
+[111, 24, 3]
+      ^ -> (Line 1 Char 72)
+      | 23 -> 24
+Increment value at pointer:
+[111, 25, 3]
+      ^ -> (Line 1 Char 73)
+      | 24 -> 25
+Increment value at pointer:
+[111, 26, 3]
+      ^ -> (Line 1 Char 74)
+      | 25 -> 26
+Increment value at pointer:
+[111, 27, 3]
+      ^ -> (Line 1 Char 75)
+      | 26 -> 27
+Increment value at pointer:
+[111, 28, 3]
+      ^ -> (Line 1 Char 76)
+      | 27 -> 28
+Increment pointer:
+[111, 28, 3]
+          ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 28, 2]
+          ^ -> (Line 1 Char 78)
+          | 3 -> 2
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Re-Enter Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 68)
+                        ^
+Decrement pointer:
+[111, 28, 2]
+      ^
+Increment value at pointer:
+[111, 29, 2]
+      ^ -> (Line 1 Char 70)
+      | 28 -> 29
+Increment value at pointer:
+[111, 30, 2]
+      ^ -> (Line 1 Char 71)
+      | 29 -> 30
+Increment value at pointer:
+[111, 31, 2]
+      ^ -> (Line 1 Char 72)
+      | 30 -> 31
+Increment value at pointer:
+[111, 32, 2]
+      ^ -> (Line 1 Char 73)
+      | 31 -> 32
+Increment value at pointer:
+[111, 33, 2]
+      ^ -> (Line 1 Char 74)
+      | 32 -> 33
+Increment value at pointer:
+[111, 34, 2]
+      ^ -> (Line 1 Char 75)
+      | 33 -> 34
+Increment value at pointer:
+[111, 35, 2]
+      ^ -> (Line 1 Char 76)
+      | 34 -> 35
+Increment pointer:
+[111, 35, 2]
+          ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 35, 1]
+          ^ -> (Line 1 Char 78)
+          | 2 -> 1
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Re-Enter Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+     | -> Re-Enters at: [ . . . 	 -> (Line 1 Char 68)
+                        ^
+Decrement pointer:
+[111, 35, 1]
+      ^
+Increment value at pointer:
+[111, 36, 1]
+      ^ -> (Line 1 Char 70)
+      | 35 -> 36
+Increment value at pointer:
+[111, 37, 1]
+      ^ -> (Line 1 Char 71)
+      | 36 -> 37
+Increment value at pointer:
+[111, 38, 1]
+      ^ -> (Line 1 Char 72)
+      | 37 -> 38
+Increment value at pointer:
+[111, 39, 1]
+      ^ -> (Line 1 Char 73)
+      | 38 -> 39
+Increment value at pointer:
+[111, 40, 1]
+      ^ -> (Line 1 Char 74)
+      | 39 -> 40
+Increment value at pointer:
+[111, 41, 1]
+      ^ -> (Line 1 Char 75)
+      | 40 -> 41
+Increment value at pointer:
+[111, 42, 1]
+      ^ -> (Line 1 Char 76)
+      | 41 -> 42
+Increment pointer:
+[111, 42, 1]
+          ^ -> (Line 1 Char 77)
+Decrement value at pointer:
+[111, 42, 0]
+          ^ -> (Line 1 Char 78)
+          | 1 -> 0
+Check Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+End Loop at pointer:
++++>-]<+\n+
+     ^ -> (Line 1 Char 79)
+Decrement pointer:
+[111, 42, 0]
+      ^
+Increment value at pointer:
+[111, 43, 0]
+      ^ -> (Line 1 Char 81)
+      | 42 -> 43
+Increment value at pointer:
+[111, 44, 0]
+      ^ -> (Line 2 Char 1)
+      | 43 -> 44
+Printed value at pointer:
+[111, 44, 0]
+      ^ -> (Line 2 Char 2)
+      | 44 -> CONSOLE
+Decrement value at pointer:
+[111, 43, 0]
+      ^ -> (Line 2 Char 3)
+      | 44 -> 43
+Decrement value at pointer:
+[111, 42, 0]
+      ^ -> (Line 2 Char 4)
+      | 43 -> 42
+Decrement value at pointer:
+[111, 41, 0]
+      ^ -> (Line 2 Char 5)
+      | 42 -> 41
+Decrement value at pointer:
+[111, 40, 0]
+      ^ -> (Line 2 Char 6)
+      | 41 -> 40
+Decrement value at pointer:
+[111, 39, 0]
+      ^ -> (Line 2 Char 7)
+      | 40 -> 39
+Decrement value at pointer:
+[111, 38, 0]
+      ^ -> (Line 2 Char 8)
+      | 39 -> 38
+Decrement value at pointer:
+[111, 37, 0]
+      ^ -> (Line 2 Char 9)
+      | 38 -> 37
+Decrement value at pointer:
+[111, 36, 0]
+      ^ -> (Line 2 Char 10)
+      | 37 -> 36
+Decrement value at pointer:
+[111, 35, 0]
+      ^ -> (Line 2 Char 11)
+      | 36 -> 35
+Decrement value at pointer:
+[111, 34, 0]
+      ^ -> (Line 2 Char 12)
+      | 35 -> 34
+Decrement value at pointer:
+[111, 33, 0]
+      ^ -> (Line 2 Char 13)
+      | 34 -> 33
+Decrement value at pointer:
+[111, 32, 0]
+      ^ -> (Line 2 Char 14)
+      | 33 -> 32
+Printed value at pointer:
+[111, 32, 0]
+      ^ -> (Line 2 Char 15)
+      | 32 -> CONSOLE
+Increment pointer:
+[111, 32, 0]
+          ^ -> (Line 2 Char 16)
+Increment value at pointer:
+[111, 32, 1]
+          ^ -> (Line 2 Char 17)
+          | 0 -> 1
+Increment value at pointer:
+[111, 32, 2]
+          ^ -> (Line 2 Char 18)
+          | 1 -> 2
+Increment value at pointer:
+[111, 32, 3]
+          ^ -> (Line 2 Char 19)
+          | 2 -> 3
+Increment value at pointer:
+[111, 32, 4]
+          ^ -> (Line 2 Char 20)
+          | 3 -> 4
+Increment value at pointer:
+[111, 32, 5]
+          ^ -> (Line 2 Char 21)
+          | 4 -> 5
+Increment value at pointer:
+[111, 32, 6]
+          ^ -> (Line 2 Char 22)
+          | 5 -> 6
+Begin Loop at pointer:
++++++[<+++
+     ^ -> (Line 2 Char 23)
+Decrement pointer:
+[111, 32, 6]
+      ^
+Increment value at pointer:
+[111, 33, 6]
+      ^ -> (Line 2 Char 25)
+      | 32 -> 33
+Increment value at pointer:
+[111, 34, 6]
+      ^ -> (Line 2 Char 26)
+      | 33 -> 34
+Increment value at pointer:
+[111, 35, 6]
+      ^ -> (Line 2 Char 27)
+      | 34 -> 35
+Increment value at pointer:
+[111, 36, 6]
+      ^ -> (Line 2 Char 28)
+      | 35 -> 36
+Increment value at pointer:
+[111, 37, 6]
+      ^ -> (Line 2 Char 29)
+      | 36 -> 37
+Increment value at pointer:
+[111, 38, 6]
+      ^ -> (Line 2 Char 30)
+      | 37 -> 38
+Increment value at pointer:
+[111, 39, 6]
+      ^ -> (Line 2 Char 31)
+      | 38 -> 39
+Increment value at pointer:
+[111, 40, 6]
+      ^ -> (Line 2 Char 32)
+      | 39 -> 40
+Increment value at pointer:
+[111, 41, 6]
+      ^ -> (Line 2 Char 33)
+      | 40 -> 41
+Increment pointer:
+[111, 41, 6]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 41, 5]
+          ^ -> (Line 2 Char 35)
+          | 6 -> 5
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Re-Enter Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 23)
+                        ^
+Decrement pointer:
+[111, 41, 5]
+      ^
+Increment value at pointer:
+[111, 42, 5]
+      ^ -> (Line 2 Char 25)
+      | 41 -> 42
+Increment value at pointer:
+[111, 43, 5]
+      ^ -> (Line 2 Char 26)
+      | 42 -> 43
+Increment value at pointer:
+[111, 44, 5]
+      ^ -> (Line 2 Char 27)
+      | 43 -> 44
+Increment value at pointer:
+[111, 45, 5]
+      ^ -> (Line 2 Char 28)
+      | 44 -> 45
+Increment value at pointer:
+[111, 46, 5]
+      ^ -> (Line 2 Char 29)
+      | 45 -> 46
+Increment value at pointer:
+[111, 47, 5]
+      ^ -> (Line 2 Char 30)
+      | 46 -> 47
+Increment value at pointer:
+[111, 48, 5]
+      ^ -> (Line 2 Char 31)
+      | 47 -> 48
+Increment value at pointer:
+[111, 49, 5]
+      ^ -> (Line 2 Char 32)
+      | 48 -> 49
+Increment value at pointer:
+[111, 50, 5]
+      ^ -> (Line 2 Char 33)
+      | 49 -> 50
+Increment pointer:
+[111, 50, 5]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 50, 4]
+          ^ -> (Line 2 Char 35)
+          | 5 -> 4
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Re-Enter Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 23)
+                        ^
+Decrement pointer:
+[111, 50, 4]
+      ^
+Increment value at pointer:
+[111, 51, 4]
+      ^ -> (Line 2 Char 25)
+      | 50 -> 51
+Increment value at pointer:
+[111, 52, 4]
+      ^ -> (Line 2 Char 26)
+      | 51 -> 52
+Increment value at pointer:
+[111, 53, 4]
+      ^ -> (Line 2 Char 27)
+      | 52 -> 53
+Increment value at pointer:
+[111, 54, 4]
+      ^ -> (Line 2 Char 28)
+      | 53 -> 54
+Increment value at pointer:
+[111, 55, 4]
+      ^ -> (Line 2 Char 29)
+      | 54 -> 55
+Increment value at pointer:
+[111, 56, 4]
+      ^ -> (Line 2 Char 30)
+      | 55 -> 56
+Increment value at pointer:
+[111, 57, 4]
+      ^ -> (Line 2 Char 31)
+      | 56 -> 57
+Increment value at pointer:
+[111, 58, 4]
+      ^ -> (Line 2 Char 32)
+      | 57 -> 58
+Increment value at pointer:
+[111, 59, 4]
+      ^ -> (Line 2 Char 33)
+      | 58 -> 59
+Increment pointer:
+[111, 59, 4]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 59, 3]
+          ^ -> (Line 2 Char 35)
+          | 4 -> 3
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Re-Enter Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 23)
+                        ^
+Decrement pointer:
+[111, 59, 3]
+      ^
+Increment value at pointer:
+[111, 60, 3]
+      ^ -> (Line 2 Char 25)
+      | 59 -> 60
+Increment value at pointer:
+[111, 61, 3]
+      ^ -> (Line 2 Char 26)
+      | 60 -> 61
+Increment value at pointer:
+[111, 62, 3]
+      ^ -> (Line 2 Char 27)
+      | 61 -> 62
+Increment value at pointer:
+[111, 63, 3]
+      ^ -> (Line 2 Char 28)
+      | 62 -> 63
+Increment value at pointer:
+[111, 64, 3]
+      ^ -> (Line 2 Char 29)
+      | 63 -> 64
+Increment value at pointer:
+[111, 65, 3]
+      ^ -> (Line 2 Char 30)
+      | 64 -> 65
+Increment value at pointer:
+[111, 66, 3]
+      ^ -> (Line 2 Char 31)
+      | 65 -> 66
+Increment value at pointer:
+[111, 67, 3]
+      ^ -> (Line 2 Char 32)
+      | 66 -> 67
+Increment value at pointer:
+[111, 68, 3]
+      ^ -> (Line 2 Char 33)
+      | 67 -> 68
+Increment pointer:
+[111, 68, 3]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 68, 2]
+          ^ -> (Line 2 Char 35)
+          | 3 -> 2
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Re-Enter Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 23)
+                        ^
+Decrement pointer:
+[111, 68, 2]
+      ^
+Increment value at pointer:
+[111, 69, 2]
+      ^ -> (Line 2 Char 25)
+      | 68 -> 69
+Increment value at pointer:
+[111, 70, 2]
+      ^ -> (Line 2 Char 26)
+      | 69 -> 70
+Increment value at pointer:
+[111, 71, 2]
+      ^ -> (Line 2 Char 27)
+      | 70 -> 71
+Increment value at pointer:
+[111, 72, 2]
+      ^ -> (Line 2 Char 28)
+      | 71 -> 72
+Increment value at pointer:
+[111, 73, 2]
+      ^ -> (Line 2 Char 29)
+      | 72 -> 73
+Increment value at pointer:
+[111, 74, 2]
+      ^ -> (Line 2 Char 30)
+      | 73 -> 74
+Increment value at pointer:
+[111, 75, 2]
+      ^ -> (Line 2 Char 31)
+      | 74 -> 75
+Increment value at pointer:
+[111, 76, 2]
+      ^ -> (Line 2 Char 32)
+      | 75 -> 76
+Increment value at pointer:
+[111, 77, 2]
+      ^ -> (Line 2 Char 33)
+      | 76 -> 77
+Increment pointer:
+[111, 77, 2]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 77, 1]
+          ^ -> (Line 2 Char 35)
+          | 2 -> 1
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Re-Enter Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 23)
+                        ^
+Decrement pointer:
+[111, 77, 1]
+      ^
+Increment value at pointer:
+[111, 78, 1]
+      ^ -> (Line 2 Char 25)
+      | 77 -> 78
+Increment value at pointer:
+[111, 79, 1]
+      ^ -> (Line 2 Char 26)
+      | 78 -> 79
+Increment value at pointer:
+[111, 80, 1]
+      ^ -> (Line 2 Char 27)
+      | 79 -> 80
+Increment value at pointer:
+[111, 81, 1]
+      ^ -> (Line 2 Char 28)
+      | 80 -> 81
+Increment value at pointer:
+[111, 82, 1]
+      ^ -> (Line 2 Char 29)
+      | 81 -> 82
+Increment value at pointer:
+[111, 83, 1]
+      ^ -> (Line 2 Char 30)
+      | 82 -> 83
+Increment value at pointer:
+[111, 84, 1]
+      ^ -> (Line 2 Char 31)
+      | 83 -> 84
+Increment value at pointer:
+[111, 85, 1]
+      ^ -> (Line 2 Char 32)
+      | 84 -> 85
+Increment value at pointer:
+[111, 86, 1]
+      ^ -> (Line 2 Char 33)
+      | 85 -> 86
+Increment pointer:
+[111, 86, 1]
+          ^ -> (Line 2 Char 34)
+Decrement value at pointer:
+[111, 86, 0]
+          ^ -> (Line 2 Char 35)
+          | 1 -> 0
+Check Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+End Loop at pointer:
++++>-]<+.<
+     ^ -> (Line 2 Char 36)
+Decrement pointer:
+[111, 86, 0]
+      ^
+Increment value at pointer:
+[111, 87, 0]
+      ^ -> (Line 2 Char 38)
+      | 86 -> 87
+Printed value at pointer:
+[111, 87, 0]
+      ^ -> (Line 2 Char 39)
+      | 87 -> CONSOLE
+Decrement pointer:
+[111, 87, 0]
+ ^
+Printed value at pointer:
+[111, 87, 0]
+ ^ -> (Line 2 Char 41)
+ | 111 -> CONSOLE
+Increment value at pointer:
+[112, 87, 0]
+ ^ -> (Line 2 Char 42)
+ | 111 -> 112
+Increment value at pointer:
+[113, 87, 0]
+ ^ -> (Line 2 Char 43)
+ | 112 -> 113
+Increment value at pointer:
+[114, 87, 0]
+ ^ -> (Line 2 Char 44)
+ | 113 -> 114
+Printed value at pointer:
+[114, 87, 0]
+ ^ -> (Line 2 Char 45)
+ | 114 -> CONSOLE
+Decrement value at pointer:
+[113, 87, 0]
+ ^ -> (Line 2 Char 46)
+ | 114 -> 113
+Decrement value at pointer:
+[112, 87, 0]
+ ^ -> (Line 2 Char 47)
+ | 113 -> 112
+Decrement value at pointer:
+[111, 87, 0]
+ ^ -> (Line 2 Char 48)
+ | 112 -> 111
+Decrement value at pointer:
+[110, 87, 0]
+ ^ -> (Line 2 Char 49)
+ | 111 -> 110
+Decrement value at pointer:
+[109, 87, 0]
+ ^ -> (Line 2 Char 50)
+ | 110 -> 109
+Decrement value at pointer:
+[108, 87, 0]
+ ^ -> (Line 2 Char 51)
+ | 109 -> 108
+Printed value at pointer:
+[108, 87, 0]
+ ^ -> (Line 2 Char 52)
+ | 108 -> CONSOLE
+Decrement value at pointer:
+[107, 87, 0]
+ ^ -> (Line 2 Char 53)
+ | 108 -> 107
+Decrement value at pointer:
+[106, 87, 0]
+ ^ -> (Line 2 Char 54)
+ | 107 -> 106
+Decrement value at pointer:
+[105, 87, 0]
+ ^ -> (Line 2 Char 55)
+ | 106 -> 105
+Decrement value at pointer:
+[104, 87, 0]
+ ^ -> (Line 2 Char 56)
+ | 105 -> 104
+Decrement value at pointer:
+[103, 87, 0]
+ ^ -> (Line 2 Char 57)
+ | 104 -> 103
+Decrement value at pointer:
+[102, 87, 0]
+ ^ -> (Line 2 Char 58)
+ | 103 -> 102
+Decrement value at pointer:
+[101, 87, 0]
+ ^ -> (Line 2 Char 59)
+ | 102 -> 101
+Decrement value at pointer:
+[100, 87, 0]
+ ^ -> (Line 2 Char 60)
+ | 101 -> 100
+Printed value at pointer:
+[100, 87, 0]
+ ^ -> (Line 2 Char 61)
+ | 100 -> CONSOLE
+Increment pointer:
+[100, 87, 0]
+      ^ -> (Line 2 Char 62)
+Increment pointer:
+[100, 87, 0]
+          ^ -> (Line 2 Char 63)
+Increment pointer:
+[100, 87, 0, 0]
+             ^ -> (Line 2 Char 64)
+Increment value at pointer:
+[100, 87, 0, 1]
+             ^ -> (Line 2 Char 65)
+             | 0 -> 1
+Increment value at pointer:
+[100, 87, 0, 2]
+             ^ -> (Line 2 Char 66)
+             | 1 -> 2
+Increment value at pointer:
+[100, 87, 0, 3]
+             ^ -> (Line 2 Char 67)
+             | 2 -> 3
+Increment value at pointer:
+[100, 87, 0, 4]
+             ^ -> (Line 2 Char 68)
+             | 3 -> 4
+Begin Loop at pointer:
+>++++[<+++
+     ^ -> (Line 2 Char 69)
+Decrement pointer:
+[100, 87, 0, 4]
+          ^
+Increment value at pointer:
+[100, 87, 1, 4]
+          ^ -> (Line 2 Char 71)
+          | 0 -> 1
+Increment value at pointer:
+[100, 87, 2, 4]
+          ^ -> (Line 2 Char 72)
+          | 1 -> 2
+Increment value at pointer:
+[100, 87, 3, 4]
+          ^ -> (Line 2 Char 73)
+          | 2 -> 3
+Increment value at pointer:
+[100, 87, 4, 4]
+          ^ -> (Line 2 Char 74)
+          | 3 -> 4
+Increment value at pointer:
+[100, 87, 5, 4]
+          ^ -> (Line 2 Char 75)
+          | 4 -> 5
+Increment value at pointer:
+[100, 87, 6, 4]
+          ^ -> (Line 2 Char 76)
+          | 5 -> 6
+Increment value at pointer:
+[100, 87, 7, 4]
+          ^ -> (Line 2 Char 77)
+          | 6 -> 7
+Increment value at pointer:
+[100, 87, 8, 4]
+          ^ -> (Line 2 Char 78)
+          | 7 -> 8
+Increment pointer:
+[100, 87, 8, 4]
+             ^ -> (Line 2 Char 79)
+Decrement value at pointer:
+[100, 87, 8, 3]
+             ^ -> (Line 2 Char 80)
+             | 4 -> 3
+Check Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+Re-Enter Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 69)
+                        ^
+Decrement pointer:
+[100, 87, 8, 3]
+          ^
+Increment value at pointer:
+[100, 87, 9, 3]
+          ^ -> (Line 2 Char 71)
+          | 8 -> 9
+Increment value at pointer:
+[100, 87, 10, 3]
+          ^ -> (Line 2 Char 72)
+          | 9 -> 10
+Increment value at pointer:
+[100, 87, 11, 3]
+          ^ -> (Line 2 Char 73)
+          | 10 -> 11
+Increment value at pointer:
+[100, 87, 12, 3]
+          ^ -> (Line 2 Char 74)
+          | 11 -> 12
+Increment value at pointer:
+[100, 87, 13, 3]
+          ^ -> (Line 2 Char 75)
+          | 12 -> 13
+Increment value at pointer:
+[100, 87, 14, 3]
+          ^ -> (Line 2 Char 76)
+          | 13 -> 14
+Increment value at pointer:
+[100, 87, 15, 3]
+          ^ -> (Line 2 Char 77)
+          | 14 -> 15
+Increment value at pointer:
+[100, 87, 16, 3]
+          ^ -> (Line 2 Char 78)
+          | 15 -> 16
+Increment pointer:
+[100, 87, 16, 3]
+              ^ -> (Line 2 Char 79)
+Decrement value at pointer:
+[100, 87, 16, 2]
+              ^ -> (Line 2 Char 80)
+              | 3 -> 2
+Check Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+Re-Enter Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 69)
+                        ^
+Decrement pointer:
+[100, 87, 16, 2]
+          ^
+Increment value at pointer:
+[100, 87, 17, 2]
+          ^ -> (Line 2 Char 71)
+          | 16 -> 17
+Increment value at pointer:
+[100, 87, 18, 2]
+          ^ -> (Line 2 Char 72)
+          | 17 -> 18
+Increment value at pointer:
+[100, 87, 19, 2]
+          ^ -> (Line 2 Char 73)
+          | 18 -> 19
+Increment value at pointer:
+[100, 87, 20, 2]
+          ^ -> (Line 2 Char 74)
+          | 19 -> 20
+Increment value at pointer:
+[100, 87, 21, 2]
+          ^ -> (Line 2 Char 75)
+          | 20 -> 21
+Increment value at pointer:
+[100, 87, 22, 2]
+          ^ -> (Line 2 Char 76)
+          | 21 -> 22
+Increment value at pointer:
+[100, 87, 23, 2]
+          ^ -> (Line 2 Char 77)
+          | 22 -> 23
+Increment value at pointer:
+[100, 87, 24, 2]
+          ^ -> (Line 2 Char 78)
+          | 23 -> 24
+Increment pointer:
+[100, 87, 24, 2]
+              ^ -> (Line 2 Char 79)
+Decrement value at pointer:
+[100, 87, 24, 1]
+              ^ -> (Line 2 Char 80)
+              | 2 -> 1
+Check Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+Re-Enter Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+     | -> Re-Enters at: [ . . . 	 -> (Line 2 Char 69)
+                        ^
+Decrement pointer:
+[100, 87, 24, 1]
+          ^
+Increment value at pointer:
+[100, 87, 25, 1]
+          ^ -> (Line 2 Char 71)
+          | 24 -> 25
+Increment value at pointer:
+[100, 87, 26, 1]
+          ^ -> (Line 2 Char 72)
+          | 25 -> 26
+Increment value at pointer:
+[100, 87, 27, 1]
+          ^ -> (Line 2 Char 73)
+          | 26 -> 27
+Increment value at pointer:
+[100, 87, 28, 1]
+          ^ -> (Line 2 Char 74)
+          | 27 -> 28
+Increment value at pointer:
+[100, 87, 29, 1]
+          ^ -> (Line 2 Char 75)
+          | 28 -> 29
+Increment value at pointer:
+[100, 87, 30, 1]
+          ^ -> (Line 2 Char 76)
+          | 29 -> 30
+Increment value at pointer:
+[100, 87, 31, 1]
+          ^ -> (Line 2 Char 77)
+          | 30 -> 31
+Increment value at pointer:
+[100, 87, 32, 1]
+          ^ -> (Line 2 Char 78)
+          | 31 -> 32
+Increment pointer:
+[100, 87, 32, 1]
+              ^ -> (Line 2 Char 79)
+Decrement value at pointer:
+[100, 87, 32, 0]
+              ^ -> (Line 2 Char 80)
+              | 1 -> 0
+Check Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+End Loop at pointer:
+++>-\n]<+.
+     ^ -> (Line 3 Char 1)
+Decrement pointer:
+[100, 87, 32, 0]
+          ^
+Increment value at pointer:
+[100, 87, 33, 0]
+          ^ -> (Line 3 Char 3)
+          | 32 -> 33
+Printed value at pointer:
+[100, 87, 33, 0]
+          ^ -> (Line 3 Char 4)
+          | 33 -> CONSOLE
