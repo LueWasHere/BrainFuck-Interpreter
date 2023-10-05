@@ -17,9 +17,10 @@ else:
 ops = ["+", "-", ".", ",", "[", "]", "<", ">"]
 pointer = 0
 tape = [0]
-prog_ops = ["-so", "--saveoutput"]
+prog_ops = ["-so", "--saveoutput", "-pp"]
 savefile = ""
 to_save = ""
+print_p = False
 def get_extra_whitespace(tape, pointer) -> int:
     extra = 0
     for i,num in enumerate(tape):
@@ -48,7 +49,12 @@ def add_to_save(string: str, error: bool=False, error_type=None) -> None:
 for i in range(0, len(argv)):
     if argv[i] in prog_ops:
         if prog_ops[prog_ops.index(argv[i])] == "-so" or prog_ops[prog_ops.index(argv[i])] == "--saveoutput":
-            savefile = "log.log"
+            try:
+                savefile = argv[i+1]
+            except IndexError:
+                savefile = "log.log"
+        elif prog_ops[prog_ops.index(argv[i])] == "-pp":
+            print_p = True
 char = 1
 ln = 1
 i = 0
@@ -118,7 +124,7 @@ while i != len(content):
                 add_to_save("", error=True, error_type=ValueError(f'Error while printing from tape: Cannot print values less than zero! (Line {ln} Char {char})'))
             add_to_save("Printed value at pointer:\n"+str(tape)+f"\n {whitespace * pointer}{' ' * get_extra_whitespace(tape, pointer)}^ -> (Line {ln} Char {char})\n{whitespace * pointer}{' ' * get_extra_whitespace(tape, pointer)} | {tape[pointer]} -> CONSOLE\n")
         elif content[i] == ",":
-            print(chr(tape[pointer]), end="")
+            tape[pointer] = ord(input("")[0])
             add_to_save("Put input value at pointer:\n"+str(tape)+f"\n {whitespace * pointer}{' ' * get_extra_whitespace(tape, pointer)}^ -> (Line {ln} Char {char})\n{whitespace * pointer}{' ' * get_extra_whitespace(tape, pointer)} | CONSOLE -> {tape[pointer]}\n")
         #elif 
     i += 1
@@ -131,3 +137,8 @@ if savefile != "":
         with open(savefile, "a") as SaveFile:
             SaveFile.write(to_save)
             SaveFile.close()
+
+if print_p:
+    print("\n----------------------------------")
+    print(tape)
+    print(f" {whitespace * pointer}{' ' * get_extra_whitespace(tape, pointer)}^")
